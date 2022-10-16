@@ -4,14 +4,13 @@
 	<head>	
 	
 		<style>
-			"style1"= {
+			 
 			.grid {background-color:white; width:100px; height: 100px; }
 
-				.grid:hover {background-color: blue; }}
-			"style2"= {
-			.grid {background-color:white; width:100px; height: 100px; }
+			.grid:hover {background-color: blue; }
+			
 
-				 }}
+				 
 		</style>
 		
 
@@ -27,8 +26,16 @@
 					
 					
 
-				  if(Status = false){ style2  } 
-				else {	style1 }
+				  if(Status = false){
+				  .grid {background-color:white; width:100px; height: 100px; }
+
+				 
+				  } 
+				else {	
+					.grid {background-color:white; width:100px; height: 100px; }
+
+					.grid:hover {background-color: blue; }
+				}
 			
 
 					}
